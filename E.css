@@ -1,0 +1,118 @@
+.Enfant{
+    background: url("Enfants/Chutti-new.__large_preview.jpg");
+    background-size: cover;
+}
+
+.Tete{
+    background: black;
+    width: 102%;
+    height: 500%;
+}
+
+.Navigation{
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.Navigation,ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.Logo{
+    flex: 2 1 40rem;
+    font-weight: normal;
+    color: white;
+}
+
+.Debut,li,a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex: 2 2 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.Droite{
+    float: right;
+}
+
+#Search{
+    padding: 5px;
+    border: 3px solid maroon;
+    border-radius: 20px; /* Arrondir les bords de notre champ */
+    outline: none; /* Enlever les droites en noir*/
+}
+
+.Soushabits{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.PBAH{ /* Paragraphe de BAH */
+    font-size: 20px;
+}
+.ABAH{ /* Bouton ajouter de BAH */
+    font-size: 20px;
+}
+
+.PPNF{ /* Paragraphe de PNF */
+    font-size: 20px;
+}
+.APNF{ /* Bouton ajouter de PNF */
+    font-size: 20px;
+}
+
+.PPANH{ /* Paragraphe de PANH */
+    font-size: 20px;
+}
+.APANH{ /* Bouton ajouter de PANH */
+    font-size: 20px;
+}
+
+.PPABF{ /* Paragraphe de PABF */
+    font-size: 20px;
+}
+.APABF{ /* Bouton ajouter de PABF */
+    font-size: 20px;
+}
+
+.PCFH{ /* Paragraphe de CFH */
+    font-size: 20px;
+}
+.ACFH{ /* Bouton ajouter de CFH */
+    font-size: 20px;
+}
+
+.PPNUF{ /* Paragraphe de PNUF*/
+    font-size: 20px;
+}
+.APNUF{ /* Bouton ajouter de PNUF */
+    font-size: 20px;
+}
+
+.T{
+    text-align: center;
+}
+
+.CD{
+    font-size: 80px;
+    color: black;
+}
+
+hr{
+    border: 0px;
+}
+
+.E{
+    background: url("Enfants/005-Arredamenti-negozi-Abbigliamento-calzature-Bambini-2.jpg");
+    height: 500px;
+    background-attachment: fixed;
+}

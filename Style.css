@@ -1,0 +1,218 @@
+body{
+    background: url("Body.jpg");
+    background-size: cover;
+    min-height: 90px;
+}
+
+.Enfants{
+    background: url("Enfants/images\(9\).jpg");
+    background-size: cover;
+}
+
+.Tete{
+    background: black;
+    width: 102%;
+    height: 500%;
+}
+
+.Navigation{
+    min-height: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.Navigation,ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.Logo{
+    flex: 2 1 40rem;
+    font-weight: normal;
+    color: white;
+}
+
+.Debut,li,a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex: 2 2 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.Center{
+    float: center;
+    border: 1px solid black;
+    min-height: 390px;
+    min-width: 300px;
+    margin: 1px;
+    padding: 240px;
+}
+
+.VAETS{
+    text-align: center;
+    font-size: 100px;
+}
+
+.Homme{ /* CONFIGURER LE BOUTON HOMMES */
+    padding: 1rem 2rem;
+    background: white;
+    font-size: 1.8rem; /* LA TAILLE DE CONTACT US */
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+}
+
+.Femme{ /* CONFIGURER LE BOUTON FEMMES */
+    padding: 1rem 2rem;
+    background: white;
+    font-size: 1.8rem; /* LA TAILLE DE FEMMES*/
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+}
+
+.Enfant{ /* CONFIGURER LE BOUTON ENFANTS */
+    padding: 1rem 2rem;
+    background: white;
+    font-size: 1.8rem; /* LA TAILLE DE ENFANTS*/
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+}
+
+.B{ /*La section des trois boutons*/
+    display: flex;
+}
+
+
+.C{
+    color: black;
+}
+
+.Droite{
+    float: right;
+}
+
+#Search{
+    padding: 5px;
+    border: 3px solid maroon;
+    border-radius: 40px; /* Arrondir les bords de notre champ */
+    outline: none; /* Enlever les droites en noir*/
+}
+.S{  /* L'icone search*/
+    float: right;
+    align-items: center;
+}
+
+.N{
+    color: black;
+    font-size: 80px;
+}
+
+.Produits{
+    background: white;
+}
+
+.TOUT{
+    background: white;
+}
+
+.LV{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.PBAH{ /* Paragraphe de BAH */
+    font-size: 30px;
+}
+.ABAH{ /* Bouton ajouter de BAH */
+    font-size: 30px;
+}
+
+.PPNF{ /* Paragraphe de PNF */
+    font-size: 30px;
+}
+.APNF{ /* Bouton ajouter de PNF */
+    font-size: 30px;
+}
+
+.PPANH{ /* Paragraphe de PANH */
+    font-size: 30px;
+}
+.APANH{ /* Bouton ajouter de PANH */
+    font-size: 30px;
+}
+
+.PPABF{ /* Paragraphe de PABF */
+    font-size: 30px;
+}
+.APABF{ /* Bouton ajouter de PABF */
+    font-size: 30px;
+}
+
+.PCFH{ /* Paragraphe de CFH */
+    font-size: 30px;
+}
+.ACFH{ /* Bouton ajouter de CFH */
+    font-size: 30px;
+}
+
+.PPNUF{ /* Paragraphe de PNUF*/
+    font-size: 30px;
+}
+.APNUF{ /* Bouton ajouter de PNUF */
+    font-size: 30px;
+}
+
+.Pied{
+    background: black;
+    height:300px;
+}
+.L{
+    color: white;
+    font-size: 40px;
+}
+
+.A{
+    color: white;
+}
+
+.C{
+    color: white;
+}
+
+.E{
+    color: white;
+}
+
+.M{
+    text-align: center;
+    color: white;
+}
+
+.IN,li,a{
+    text-align: center;
+    color: white;
+}
+
+.MC{
+    color: white;
+    display: flex;
+}
+
+.MCS{
+    color: white;
+    text-align: center;
+}
+
+
+.IDC{
+    text-align: center;
+}
